@@ -74,13 +74,16 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #B3CAF5;
+  background-color: #B3F5BD;
   color: black;
+  border-top: medium solid whitesmoke;
+  border-bottom: medium solid whitesmoke;
 }
 
 .section-1 h2 {
   color: black;
   font-size: 180%;
+  margin-top: 20px;
 }
 
 .section-1-images {
@@ -116,6 +119,7 @@ img {
   max-width: 400px;
   margin: auto;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .quote {
