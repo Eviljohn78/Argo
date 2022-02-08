@@ -88,6 +88,10 @@ ul li {
 
 .section-1-images {
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
@@ -157,3 +161,13 @@ a:hover {
   color: #F5DEB3;
 }
 
+@media (min-width: 800px) {
+  .section-1-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+
+
+  }
+}
