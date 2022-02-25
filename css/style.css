@@ -173,6 +173,82 @@ a:hover {
   body {
     font-size: 120%;
   }
+
+  header {
+    position: relative;
+    padding-top: 2rem;
+    z-index: 1;
+    margin-bottom: 2rem;
+    border: none;
+  }
+
+  header::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #333333;
+    bottom: 0;
+    z-index: -1;
+    transform-origin: left bottom;
+    transform: skewY(1deg);
+  
+  }
+
+  .section-1 {
+    position: relative;
+    z-index: 1;
+    border: none;
+    margin: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .section-1::before {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #B3F5BD;
+    z-index: -1;
+    top: 0;
+    transform-origin: left top;
+    transform: skewY(-1deg);
+  }
+
+  .section-1::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #B3F5BD;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: skewY(1deg);
+  }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    border: none;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  footer::before {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    transform-origin: left top;
+    transform: skewY(-1deg);
+    background-color: #333333;
+  }
+
+
+
   .section-1-images {
     display: flex;
     flex-direction: row;
