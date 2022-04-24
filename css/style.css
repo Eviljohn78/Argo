@@ -8,7 +8,7 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   line-height: 160%;
-  background-color: #B3CAF5;
+  background-color: #333333;
   color: black;
 }
 
@@ -49,7 +49,7 @@ main {
 }
 
 .section-2 {
-  background-color: #F5B3EB;
+  background-color: #e0a57b;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #B3F5BD;
+  background-color: #333333;
   color: black;
   border-top: medium solid whitesmoke;
   border-bottom: medium solid whitesmoke;
@@ -91,7 +91,7 @@ main {
 }
 
 .section-1 h2 {
-  color: black;
+  color: whitesmoke;
   margin-top: 20px;
 }
 
@@ -112,6 +112,7 @@ main {
 
 .argo-pics {
   margin-bottom: 20px;
+  border: medium solid whitesmoke;
 }
 
 img {
@@ -120,7 +121,7 @@ img {
 }
 
 .thor {
-  background-color: #F5B3EB;
+  background-color: #e0a57b;;
   padding: 20px;
   margin: auto;
   display: flex;
@@ -165,13 +166,14 @@ a:visited {
 }
 
 a:hover {
-  color: #F5DEB3;
+  color: #e0a57b;
 }
 
 @media (min-width: 768px) {
 
   body {
     font-size: 120%;
+    background-color: whitesmoke;
   }
 
   header {
@@ -192,7 +194,18 @@ a:hover {
     z-index: -1;
     transform-origin: left bottom;
     transform: skewY(1deg);
-  
+  }
+
+  .section-2 {
+    border: medium solid #333333;
+  }
+
+  .thor {
+    border: medium solid #333333;
+  }
+
+  img {
+    border: medium solid #333333;
   }
 
   .section-1 {
@@ -208,7 +221,7 @@ a:hover {
     width: 100%;
     height: 50%;
     position: absolute;
-    background-color: #B3F5BD;
+    background-color: #333333;
     z-index: -1;
     top: 0;
     transform-origin: left top;
@@ -220,7 +233,7 @@ a:hover {
     width: 100%;
     height: 50%;
     position: absolute;
-    background-color: #B3F5BD;
+    background-color: #333333;
     z-index: -1;
     bottom: 0;
     transform-origin: left bottom;
